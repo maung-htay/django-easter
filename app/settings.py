@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'app.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-DEFAULT_DB = 'local'
+DEFAULT_DB = 'production'
 DB_LIST = {
     'production': {
         'ENGINE': 'django.db.backends.postgresql',
