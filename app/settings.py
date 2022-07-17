@@ -72,6 +72,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'app.wsgi.application'
 
+SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
