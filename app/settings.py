@@ -80,7 +80,7 @@ DB_LIST = {
     'production': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'listing',
-        'USER': 'postgres',
+        'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '5432',
@@ -134,3 +134,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = 'media/'
 MEDIA_ROOT = 'media'
+
+							
+										
